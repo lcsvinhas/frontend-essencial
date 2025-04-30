@@ -1,0 +1,36 @@
+body {
+    font-size: 16px;
+}
+
+.empresa {
+    background-color: red;
+}
+
+.area {
+    background-color: aqua;
+}
+
+.linguagem {
+    background-color: orange;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.computador {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.desktop {
+    background-color: antiquewhite;
+}   
+
+.teste{
+    width: 500px;
+    height: 80px;
+    border: 10px solid red;
+}
