@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CallBack</title>
+</head>
+<body>
+    <script>
+        // Função
+        const saudacao = (nome) => alert(`Olá ${nome}`);
+
+        // Função
+        const processamento = (callback) => {
+            const nome = prompt("Digite o seu nome:");
+            callback(nome);
+        }
+
+        // Chamada da função
+        processamento(saudacao);
+    </script>
+</body>
+</html>

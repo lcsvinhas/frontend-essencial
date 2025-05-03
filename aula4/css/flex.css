@@ -1,0 +1,36 @@
+div {
+    background-color: gainsboro;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    background-color: red;
+}
+
+.item2 {
+    background-color: blue;
+}
+
+.item3 {
+    background-color: green;
+}
+
+.item4 {
+    background-color: yellow;
+}
