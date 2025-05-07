@@ -1,0 +1,121 @@
+.plano {
+    padding: 10px;
+    border: 1px solid #95a4a5;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.plano__cabecalho {
+    margin-bottom: 0;
+    font-size: 1.75em;
+    background-color: #95a4a5;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.plano__preco {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.75em;
+}
+
+.plano__caracteristicas {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plano__caracteristicas>li {
+    text-align: center;
+}
+
+.plano__rodape {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #127d00;
+    border: 1px solid #127d00;
+    border-radius: 4px;
+    color: #fff;
+    outline: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+
+.button--assinar {
+    background-color: black;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: orange;
+}
+
+.button:focus {
+    background-color: red;
+}
+
+.principal {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.principal__titulo {
+    color: #fff;
+    font-size: 2.25rem;
+    text-shadow: 1px 2px #313131;
+}
+
+.principal__subtitulo {
+    margin: 60px 0;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.principal__assinar {
+    margin: 50px 0;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.depoimento {
+    font-size: 1.5em;
+}
+
+.depoimento>blockquote {
+    padding: 0 60px;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.depoimento__autor {
+    text-align: center;
+}
+
+.depoimento__autor>img {
+    border-radius: 50%;
+}
+
+.depoimento__autor>p {
+    margin-top: 10px;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.titulo-formulario {
+    margin: 0;
+    margin-bottom: 40px;
+    border: 2px solid #ccc;
+    font-size: 2rem;
+    color: blue;
+}
